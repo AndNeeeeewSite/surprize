@@ -1,0 +1,71 @@
+.h1{
+    font-family: "Pacifico", cursive;
+    font-size: 110px;
+    margin-top:110px;
+    margin-left:800px;
+}
+
+body{
+    background-image: url("../img/backvira.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h3{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 800px;
+}
+
+.img-home{
+    animation-name: div-anim;
+    animation-duration: 10000ms;
+
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    transition: all 1000px;
+    margin-left:360px;
+    top: 160px;
+    position: absolute;
+}
+
+.audio{
+    margin-top: 100px;
+
+margin-left: 1000px;}
+
+
+.home{
+    font-family: "Pacifico", cursive;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    color: black;
+    margin-top: 14%;
+    margin-left: 27%;
+    position: absolute;
+}
+
+@keyframes div-anim {
+    25% {
+        background-image:url("../img/vira.png");
+    }
+    65% {
+        background-image:url("../img/vira2.png");
+
+    }
+
+
+    100% {
+        background-image:url("../img/vira3.png");
+        }
+
+}

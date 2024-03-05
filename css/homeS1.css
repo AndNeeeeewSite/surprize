@@ -1,0 +1,65 @@
+.h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.gif{
+    margin-left: 32%;
+    width: 600px;
+    margin-top:  50px;
+}
+
+.Home{
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 580px;
+}
+.yes{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color: rgb(0, 255, 0);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+.no{
+
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.choose{
+    margin-top: 50px;
+    margin-left: 46%;
+}
+.home{
+
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 132, 255);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 1760px;
+    position: absolute;
+    margin-top: 310px;
+}

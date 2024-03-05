@@ -1,0 +1,110 @@
+.h1{
+    margin-top: 200px;
+    font-family: "Pacifico", cursive;
+    margin-left: 43%;
+    font-size: xx-large;
+    color: green;
+}
+.h1-2{
+    margin-top: 1px;
+    font-family: "Pacifico", cursive;
+    margin-left: 37%;
+    font-size: xx-large;
+    color: green;
+}
+.h1-3{
+    font-family: "Pacifico", cursive;
+    margin-left: 41%;
+    font-size: xx-large;
+    color: #e14a8a;
+}
+.h1-4{
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+    color: #e14a8a;
+}
+.h1-5{
+    margin-top: 30px;
+    margin-left: 35%;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: #5baddc;
+}
+body{
+    align-content: center;
+    justify-content: center;
+        background-image: url("../img/backhome.png");
+        background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.list{
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.item{
+    width: 300px;
+    height: 400px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s{
+    background-image: url("../img/masha4.png");
+}
+
+.v{
+    background-image: url("../img/vira.png");
+}
+
+.m{
+    background-image: url("../img/mam5.png");
+}
+
+.n{
+    background-image: url("../img/nadia2.png");
+}
+/* Для мобільних пристроїв */
+@media only screen and (max-width: 600px) {
+    .h1 {
+      margin-top: 50px;
+      font-size: large;
+      margin-left: 20%;
+    }
+  
+    .h1-2 {
+      margin-top: 10px;
+      font-size: large;
+      margin-left: 10%;
+    }
+  
+    .h1-3 {
+      margin-left: 15%;
+      font-size: medium;
+    }
+  
+    .h1-4 {
+      font-size: 40px;
+    }
+  
+    .h1-5 {
+      margin-top: 10px;
+      margin-left: 5%;
+      font-size: 20px;
+    }
+  
+    .list {
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .item {
+      width: 150px;
+      height: 200px;
+    }
+  }

@@ -1,0 +1,70 @@
+.h1{
+    font-family: "Pacifico", cursive;
+    font-size: 120px;
+    margin-top:290px;
+    margin-left: 46%;
+}
+
+body{
+    background-image: url("../img/backmasha.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h3{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+
+.img-home{
+    animation-name: div-anim;
+    animation-duration: 10000ms;
+
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    transition: all 1000px;
+    margin-left:230px;
+    top: 280px;
+    position: absolute;
+}
+
+
+
+.home{
+    font-family: "Pacifico", cursive;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    color: black;
+    margin-top: -2%;
+    margin-left: 96%;
+    position: absolute;
+}
+
+@keyframes div-anim {
+    25% {
+        background-image:url("../img/masha2.png");
+    }
+    50% {
+        background-image:url("../img/masha3.png");
+
+    }
+    75% {
+        background-image:url("../img/masha_home.jpg");
+
+    }
+
+    100% {
+        background-image:url("../img/masha4.png");
+        }
+
+}
