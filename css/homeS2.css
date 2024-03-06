@@ -17,6 +17,12 @@ body{
     margin-left: 900px;
 }
 
+.audio{
+    top: 88%;
+    margin-left: 270px;
+    position: absolute;
+}
+
 .img-home{
     animation-name: div-anim;
     animation-duration: 10000ms;
@@ -67,4 +73,52 @@ body{
         background-image:url("../img/masha4.png");
         }
 
+}
+/* Стилі для екранів шириною 600px і менше (телефонів) */
+@media only screen and (max-width: 600px) {
+    .h1 {
+        font-size: 60px;
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+
+    .h3 {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+
+    .audio {
+        top: 600px;
+        margin-left: 10%;
+        position: absolute; /* Змінив позицію на відносну для резиновості */
+    }
+
+    .img-home {
+        width: 100%;
+        height: 300px; /* Задайте висоту, яка підходить для телефонів */
+        margin: 0;
+        top: 150px;
+        position: relative; /* Змінив позицію на відносну для резиновості */
+    }
+
+    .home {
+        font-size: 20px;
+        margin-top: 36%;
+        margin-left: 79%;
+    }
+
+    @keyframes div-anim {
+        25% {
+            background-image: url("../img/masha2.png");
+        }
+        50% {
+            background-image: url("../img/masha3.png");
+        }
+        75% {
+            background-image: url("../img/masha_home.jpg");
+        }
+        100% {
+            background-image: url("../img/masha4.png");
+        }
+    }
 }

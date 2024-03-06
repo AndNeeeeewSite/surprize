@@ -2,7 +2,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: xx-large;
     margin-top: 50px;
-    margin-left: 40%;
+    margin-left: 21%;
 }
 
 .gif{
@@ -10,9 +10,15 @@
     width: 600px;
     margin-top:  50px;
 }
+.gif1{
+    margin-left: 36%;
+    width: 500px;
+    margin-top:  50px;
+}
+
 
 .Home{
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
     border-radius: 15px;
     padding: 10px;
     position: absolute;
@@ -22,12 +28,12 @@
 .yes{
     color: rgb(0, 0, 0);
     font-size: xx-large;
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 217, 255);
     border-radius: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -36,7 +42,7 @@
 
     font-size: xx-large;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 217, 255);
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -46,9 +52,27 @@
 }
 
 .choose{
-    margin-top: 50px;
-    margin-left: 46%;
+    margin-top: 80px;
+
+ margin-left: 35%;
 }
+.choose1{
+    margin-top: 80px;
+
+ margin-left: 34%;
+}
+.choose2{
+    margin-top: 80px;
+
+ margin-left: 38%;
+}
+.choose3{
+    margin-top: 80px;
+
+ margin-left: 36%;
+}
+
+
 .home{
 
     font-size: xx-large;
@@ -62,4 +86,92 @@
     margin-left: 1760px;
     position: absolute;
     margin-top: 310px;
+}
+
+.choose5{
+    margin-top: 80px;
+
+ margin-left: 38%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .h1,
+    .gif,
+    .gif1,
+    .Home,
+    .yes,
+    .no,
+    .choose,
+    .choose1,
+    .choose2,
+    .choose3,
+    .choose5,
+    .home {
+        margin-left: 10%; /* Adjust the value based on your design */
+    }
+
+
+    .gif{
+        margin-left: 1%;
+        width: 350px;
+    }
+    .gif1{
+        margin-left: 1%;
+        width: 350px;
+    }
+    .choose{
+        display: flex;
+        margin-top: 30px;
+    
+     margin-left: -8%;
+    }
+    .choose1{
+        display: flex;
+        margin-top: 30px;
+    
+     margin-left: -12%;
+    }
+    .choose2{
+        display: flex;
+        margin-top: 40px;
+    
+     margin-left: 4%;
+    }
+    .choose3{
+        display: flex;
+        margin-top: 20px;
+        margin-left: -3%;
+    }
+    .choose5{
+        display: flex;
+        margin-top: 20px;
+    
+        margin-left: -2%;
+    }
+    
+
+    
+.no{
+
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 217, 255);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.yes{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color: rgb(0, 217, 255);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 }

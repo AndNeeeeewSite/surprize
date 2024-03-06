@@ -107,4 +107,13 @@ body{
       width: 150px;
       height: 200px;
     }
+
+    body{
+      align-content: center;
+      justify-content: center;
+          background-image: url("../img/backhome.png");
+          background-repeat: repeat;
+          background-position: -420px -122px;
+      background-size: cover;   
+  }
   }

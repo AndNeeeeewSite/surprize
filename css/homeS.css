@@ -1,17 +1,18 @@
-.h1{
+/* Base styles */
+.h1 {
     font-family: "Montserrat", sans-serif;
     font-size: xx-large;
     margin-top: 50px;
     margin-left: 40%;
 }
 
-.gif{
+.gif {
     margin-left: 32%;
     width: 600px;
-    margin-top:  50px;
+    margin-top: 50px;
 }
 
-.Home{
+.Home {
     background-color: aqua;
     border-radius: 15px;
     padding: 10px;
@@ -19,49 +20,64 @@
     margin-top: 800px;
     margin-left: 580px;
 }
-.yes{
+
+.yes {
     color: rgb(0, 0, 0);
     font-size: xx-large;
     background-color: rgb(0, 255, 0);
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+    padding: 10px 15px;
+    margin-left: 0;
 }
 
-
-.no{
-
+.no {
     font-size: xx-large;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 0, 0);
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 20px;
+    padding: 10px 15px;
+    margin-left: 0;
 }
 
-.choose{
+.choose {
     margin-top: 50px;
     margin-left: 44%;
 }
 
-
-.home{
-
+.home {
     font-size: xx-large;
     color: rgb(0, 0, 0);
     background-color: rgb(0, 132, 255);
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 1760px;
-    position: absolute;
-    margin-top: 310px;
+    padding: 10px 15px;
+    margin-left: 93%;
+    position: absolute; /* Changed to relative for responsiveness */
+    margin-top: 320px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .h1 {
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    .gif {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Home {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 0%;
+    }
+
+    .yes, .no, .choose, .home {
+        font-size: medium;
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
